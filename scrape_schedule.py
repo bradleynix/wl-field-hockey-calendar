@@ -135,13 +135,22 @@ def is_generic(line: str) -> bool:
     low = line.strip().lower()
     if low in GENERIC_LINES:
         return True
-    if "logo" in low:
+    if low in {"logo", "school logo", "team logo"}:
         return True
     if re.fullmatch(r"[-–—\s]*", line):
         return True
     if re.fullmatch(r"\d{1,3}(?:\s*[-–]\s*\d{1,3})?", line):
         return True
     return False
+
+
+def normalize_semantic_line(line: str) -> str:
+    """Clean labels harvested from image alt/title/ARIA attributes."""
+    line = clean_text(line)
+    line = re.sub(r"\s+(?:school\s+)?logo$", "", line, flags=re.I)
+    line = re.sub(r"\s+team\s+logo$", "", line, flags=re.I)
+    line = re.sub(r"^(?:opponent|location|venue)\s*[:\-]\s*", "", line, flags=re.I)
+    return clean_text(line)
 
 
 def parse_local_datetime(text: str) -> datetime | None:
@@ -185,61 +194,109 @@ def choose_source_url(hrefs: Iterable[str]) -> str:
     return SOURCE_URL
 
 
+def _meaningful_lines(block_lines: list[str]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for raw in block_lines:
+        line = normalize_semantic_line(raw)
+        if not line:
+            continue
+        key = line.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(line)
+    return out
+
+
 def infer_opponent(block_lines: list[str], full_text: str) -> str:
-    # Prefer school-looking lines that are not W-L itself.
+    lines = _meaningful_lines(block_lines)
+
+    # Prefer an explicitly labelled Opponent value when the component provides one.
+    for i, line in enumerate(lines):
+        m = re.match(r"^opponent\s*[:\-]\s*(.+)$", line, re.I)
+        if m and m.group(1).strip():
+            return normalize_semantic_line(m.group(1))
+        if line.strip().lower() == "opponent":
+            for nxt in lines[i + 1 :]:
+                if not (DATE_RE.search(nxt) or TIME_RE.search(nxt) or is_generic(nxt) or is_own_team(nxt)):
+                    return normalize_semantic_line(nxt)
+
     candidates: list[str] = []
-    for line in block_lines:
+    for line in lines:
         if DATE_RE.search(line) or TIME_RE.search(line) or is_generic(line) or is_own_team(line):
+            continue
+        if line.strip().lower() in {"home", "away", "scrimmage", "regular season", "non-region", "region"}:
             continue
         candidates.append(line)
 
+    # The rSchoolToday cards use school names for both opponent and venue.
+    # The opponent is normally the first non-W-L school-looking value in the card.
     schoolish = [
         c for c in candidates
         if any(hint in f" {c.lower()}" for hint in VENUE_HINTS)
     ]
     if schoolish:
-        # Opponent usually appears before the venue in an event card.
         return schoolish[0]
 
-    # Otherwise take the first meaningful label after the time line.
+    # Otherwise take the first meaningful value after the time.
     time_seen = False
-    for line in block_lines:
+    for line in lines:
         if TIME_RE.search(line):
             time_seen = True
             continue
         if time_seen and not (DATE_RE.search(line) or is_generic(line) or is_own_team(line)):
-            return line
+            if line.strip().lower() not in {"home", "away"}:
+                return normalize_semantic_line(line)
 
     return "Opponent TBD"
 
 
 def infer_relation(text: str, location: str, opponent: str) -> str:
-    # Explicit markers are best.
+    # Explicit home/away words are more common in modern rSchoolToday cards than @/vs.
+    if re.search(r"(?:^|\n)\s*away\s*(?:$|\n)", text, re.I):
+        return "@"
+    if re.search(r"(?:^|\n)\s*home\s*(?:$|\n)", text, re.I):
+        return "vs"
     if re.search(r"(^|\n|\s)@(\s|\n|$)", text):
         return "@"
     if re.search(r"(^|\n|\s)vs\.?($|\s|\n)", text, re.I):
         return "vs"
 
-    # If the inferred venue names W-L, it is probably a home game.
     if location and is_own_team(location):
         return "vs"
-    # If the venue repeats the opponent, it is probably away.
-    if location and opponent.lower() in location.lower():
+    if location and opponent != "Opponent TBD" and opponent.lower() in location.lower():
         return "@"
     return "vs"
 
 
 def infer_location(block_lines: list[str], opponent: str) -> str:
+    lines = _meaningful_lines(block_lines)
+
+    # First honor an explicitly labelled Location/Venue value.
+    for i, line in enumerate(lines):
+        m = re.match(r"^(?:location|venue)\s*[:\-]\s*(.+)$", line, re.I)
+        if m and m.group(1).strip():
+            return normalize_semantic_line(m.group(1))
+        if line.strip().lower() in {"location", "venue"}:
+            for nxt in lines[i + 1 :]:
+                if DATE_RE.search(nxt) or TIME_RE.search(nxt) or is_generic(nxt):
+                    continue
+                return normalize_semantic_line(nxt)
+
     venue_candidates: list[str] = []
-    for line in block_lines:
+    for line in lines:
         if DATE_RE.search(line) or TIME_RE.search(line) or is_generic(line):
+            continue
+        if line.strip().lower() in {"home", "away", "scrimmage", "regular season", "non-region", "region"}:
             continue
         low = f" {line.lower()}"
         if any(hint in low for hint in VENUE_HINTS):
             venue_candidates.append(line)
 
-    # Cards commonly list opponent first and venue last, so use the final venue-like line.
-    # If the last label is only "Stadium"/"Field"/"Turf", retain the school name too.
+    # Cards usually list the opponent first and the game location later.  If an away
+    # school is repeated (as Bing's rendered index shows for this page), the last value
+    # correctly becomes the venue.  Home cards similarly end on Washington-Liberty.
     if venue_candidates:
         last = venue_candidates[-1]
         if last.strip().lower() in {"stadium", "field", "turf"} and len(venue_candidates) >= 2:
@@ -432,8 +489,10 @@ async def scrape_blocks() -> tuple[list[dict], str, str]:
             r"""
             () => {
               const dateRe = /\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?,?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(?:uary|ruary|ch|il|e|y|ust|tember|ober|ember)?\s+\d{1,2}(?:,?\s+20\d{2})?\b/i;
+              const dateReG = /\b(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?,?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(?:uary|ruary|ch|il|e|y|ust|tember|ober|ember)?\s+\d{1,2}(?:,?\s+20\d{2})?\b/ig;
               const timeRe = /\b\d{1,2}:\d{2}\s*(?:AM|PM)\b/i;
-              const normalize = s => (s || '').replace(/\u00a0/g, ' ').trim();
+              const timeReG = /\b\d{1,2}:\d{2}\s*(?:AM|PM)\b/ig;
+              const normalize = s => (s || '').replace(/\u00a0/g, ' ').replace(/[ \t]+/g, ' ').trim();
               const all = Array.from(document.querySelectorAll('h1,h2,h3,h4,h5,h6,div,p,section'));
               const scheduleHeading = all.find(el => normalize(el.textContent).toUpperCase() === 'SCHEDULES');
               const rosterHeading = all.find(el => normalize(el.textContent).toUpperCase() === 'ROSTERS');
@@ -447,21 +506,68 @@ async def scrape_blocks() -> tuple[list[dict], str, str]:
                 return rosterAfterEl;
               };
 
+              const occurrenceCount = (text, regex) => (normalize(text).match(regex) || []).length;
               const selectors = 'article,li,tr,div,section';
-              let matches = Array.from(document.querySelectorAll(selectors)).filter(el => {
+              let seeds = Array.from(document.querySelectorAll(selectors)).filter(el => {
                 const text = normalize(el.innerText);
                 return inScheduleRange(el) && text.length > 0 && text.length < 1800 && dateRe.test(text) && timeRe.test(text);
               });
 
-              // Keep the smallest useful DOM node for each event rather than a parent containing many events.
-              matches = matches.filter(el => !Array.from(el.children).some(child => {
+              // Start with the smallest date/time node, then grow outward to the largest
+              // ancestor that still contains only one game's date/time. This captures the
+              // opponent and venue siblings without swallowing the next game card.
+              seeds = seeds.filter(el => !Array.from(el.children).some(child => {
                 const text = normalize(child.innerText);
                 return text.length > 0 && dateRe.test(text) && timeRe.test(text);
               }));
 
+              const expanded = seeds.map(seed => {
+                let chosen = seed;
+                let cur = seed.parentElement;
+                for (let depth = 0; cur && depth < 8; depth++, cur = cur.parentElement) {
+                  if (!inScheduleRange(cur)) break;
+                  const text = normalize(cur.innerText);
+                  if (!text || text.length > 2600) break;
+                  const dates = occurrenceCount(text, dateReG);
+                  const times = occurrenceCount(text, timeReG);
+                  if (dates !== 1 || times < 1 || times > 2) break;
+                  chosen = cur;
+                }
+                return chosen;
+              });
+
+              // Remove duplicates when several seeds expand to the same event card.
+              const matches = Array.from(new Set(expanded));
+
+              const semanticText = el => {
+                const parts = [normalize(el.innerText)];
+                const values = [];
+                for (const node of el.querySelectorAll('img[alt], [aria-label], [title]')) {
+                  for (const attr of ['alt', 'aria-label', 'title']) {
+                    let value = normalize(node.getAttribute && node.getAttribute(attr));
+                    if (!value) continue;
+                    value = value.replace(/\s+(?:school\s+)?logo$/i, '').replace(/\s+team\s+logo$/i, '').trim();
+                    if (!value) continue;
+                    if (/^(?:image|photo|icon|button|link)$/i.test(value)) continue;
+                    values.push(value);
+                  }
+                }
+                const seen = new Set();
+                for (const value of values) {
+                  const key = value.toLowerCase();
+                  if (!seen.has(key) && !parts[0].toLowerCase().includes(key)) {
+                    seen.add(key);
+                    parts.push(value);
+                  }
+                }
+                return parts.filter(Boolean).join('\n');
+              };
+
               return matches.map(el => ({
-                text: normalize(el.innerText),
-                hrefs: Array.from(el.querySelectorAll('a[href]')).map(a => a.href)
+                text: semanticText(el),
+                hrefs: Array.from(el.querySelectorAll('a[href]')).map(a => a.href),
+                tag: el.tagName,
+                className: typeof el.className === 'string' ? el.className : ''
               }));
             }
             """
@@ -618,6 +724,9 @@ def write_debug_summary(blocks: list[dict], events: list[Event]) -> None:
         "season_year": SEASON_YEAR,
         "block_count": len(blocks),
         "event_count": len(events),
+        # Retain the raw expanded game-card text so a future site redesign can be
+        # diagnosed from the committed audit file without downloading an Actions artifact.
+        "blocks": blocks,
         "events": [
             {
                 "start_local": e.start_local.isoformat(),
