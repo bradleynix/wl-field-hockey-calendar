@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+##!/usr/bin/env python3
 """Scrape the Washington-Liberty varsity field hockey schedule and build an ICS feed.
 
 The source site injects its schedule dynamically, so this script uses Playwright/Chromium.
@@ -54,6 +54,7 @@ DATE_RE = re.compile(
     re.I,
 )
 TIME_RE = re.compile(r"\b(?P<hour>\d{1,2}):(?P<minute>\d{2})\s*(?P<ampm>AM|PM)\b", re.I)
+CANCELED_STATUSES = {"canceled", "cancelled"}
 
 GENERIC_LINES = {
     "varsity",
@@ -124,6 +125,14 @@ def lines_of(text: str) -> list[str]:
         if line:
             out.append(line)
     return out
+
+
+def is_canceled_schedule_entry(text: str) -> bool:
+    """Return True when a schedule row has an explicit Canceled/Cancelled status line."""
+    return any(
+        clean_text(line).casefold() in CANCELED_STATUSES
+        for line in text.splitlines()
+    )
 
 
 def is_own_team(line: str) -> bool:
@@ -308,11 +317,19 @@ def infer_location(block_lines: list[str], opponent: str) -> str:
 def parse_blocks(blocks: list[dict]) -> list[Event]:
     events: list[Event] = []
     seen_mutable: set[tuple] = set()
+    canceled_orders: set[int] = set()
 
     for order, block in enumerate(blocks):
         raw_text = clean_text(block.get("text", ""))
         if not raw_text:
             continue
+
+        # rSchoolToday sometimes leaves canceled contests in the schedule and places
+        # "Canceled" in the Results/Score column. Preserve the row through UID
+        # assignment, then omit it from the published ICS/HTML feed.
+        if is_canceled_schedule_entry(raw_text):
+            canceled_orders.add(order)
+
         start = parse_local_datetime(raw_text)
         if not start:
             continue
@@ -353,7 +370,19 @@ def parse_blocks(blocks: list[dict]) -> list[Event]:
 
     events.sort(key=lambda e: (e.start_local, e.source_order))
     assign_stable_uids(events)
-    return events
+
+    active_events: list[Event] = []
+    for event in events:
+        if event.source_order in canceled_orders:
+            print(
+                "Skipping canceled schedule entry: "
+                f"{event.start_local:%Y-%m-%d %I:%M %p} "
+                f"{event.relation} {event.opponent}"
+            )
+            continue
+        active_events.append(event)
+
+    return active_events
 
 
 def assign_stable_uids(events: list[Event]) -> None:
