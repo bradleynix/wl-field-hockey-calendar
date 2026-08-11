@@ -1,4 +1,4 @@
-##!/usr/bin/env python3
+#!/usr/bin/env python3
 """Scrape the Washington-Liberty varsity field hockey schedule and build an ICS feed.
 
 The source site injects its schedule dynamically, so this script uses Playwright/Chromium.
@@ -279,6 +279,29 @@ def infer_relation(text: str, location: str, opponent: str) -> str:
     return "vs"
 
 
+def _is_venue_like(line: str) -> bool:
+    """Return True when a line contains a venue term as a whole word/phrase.
+
+    Whole-word matching matters here: school names such as Springfield, Wakefield,
+    and Westfield contain the letters "field" but are not themselves evidence that
+    the line is a field/venue label.
+    """
+    low = clean_text(line).lower()
+    patterns = (
+        r"\bhigh\s+school\b",
+        r"\bhs\b",
+        r"\bstadium\b",
+        r"\bfield\b",
+        r"\bturf\b",
+        r"\bschool\b",
+        r"\bcomplex\b",
+        r"\bpark\b",
+        r"\bacademy\b",
+        r"\bcent(?:er|re)\b",
+    )
+    return any(re.search(pattern, low, re.I) for pattern in patterns)
+
+
 def infer_location(block_lines: list[str], opponent: str) -> str:
     lines = _meaningful_lines(block_lines)
 
@@ -299,14 +322,20 @@ def infer_location(block_lines: list[str], opponent: str) -> str:
             continue
         if line.strip().lower() in {"home", "away", "scrimmage", "regular season", "non-region", "region"}:
             continue
-        low = f" {line.lower()}"
-        if any(hint in low for hint in VENUE_HINTS):
+        if _is_venue_like(line):
             venue_candidates.append(line)
 
-    # Cards usually list the opponent first and the game location later.  If an away
-    # school is repeated (as Bing's rendered index shows for this page), the last value
-    # correctly becomes the venue.  Home cards similarly end on Washington-Liberty.
     if venue_candidates:
+        # If Washington-Liberty appears among the venue candidates, that is the
+        # strongest signal for a home game. Prefer it over trailing opponent-logo
+        # metadata such as "West Springfield High".
+        own_team_venues = [c for c in venue_candidates if is_own_team(c)]
+        if own_team_venues:
+            return own_team_venues[-1]
+
+        # Otherwise use the last real venue-like value. Whole-word matching above
+        # prevents "Springfield", "Wakefield", and "Westfield" from matching merely
+        # because those school names happen to contain the substring "field".
         last = venue_candidates[-1]
         if last.strip().lower() in {"stadium", "field", "turf"} and len(venue_candidates) >= 2:
             return f"{venue_candidates[-2]} - {last}"
