@@ -2,7 +2,7 @@
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
   "block_count": 18,
-  "event_count": 17,
+  "event_count": 16,
   "blocks": [
     {
       "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \nWashington-Liberty HS\nWest Springfield High",
@@ -257,15 +257,6 @@
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "38caec5e1692e89a01bbbf57@wl-field-hockey-calendar",
       "details": "Wed, Oct 7 | 7:30 PM | Herndon HS | - | Washington-Liberty HS | Herndon High"
-    },
-    {
-      "start_local": "2026-10-08T19:30:00-04:00",
-      "opponent": "Herndon HS",
-      "location": "Washington-Liberty HS",
-      "relation": "vs",
-      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "f8df825c8083735bbbec013a@wl-field-hockey-calendar",
-      "details": "Thu, Oct 8 | 7:30 PM | Herndon HS | Canceled | Washington-Liberty HS | Herndon High"
     }
   ]
 }
