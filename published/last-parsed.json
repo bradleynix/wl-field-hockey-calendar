@@ -2,7 +2,7 @@
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
   "block_count": 18,
-  "event_count": 16,
+  "event_count": 15,
   "blocks": [
     {
       "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \nWashington-Liberty HS\nWest Springfield High",
@@ -23,7 +23,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \n-\n \nLake Braddock Secondary School",
+      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nCanceled\n \nLake Braddock Secondary School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -131,15 +131,6 @@
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "ad8acaede3c45ea66e3ede95@wl-field-hockey-calendar",
       "details": "Thu, Aug 20 | 7:30 PM | Annandale HS | - | Annandale HS | Annandale High"
-    },
-    {
-      "start_local": "2026-08-25T19:30:00-04:00",
-      "opponent": "Lake Braddock Secondary School",
-      "location": "Lake Braddock Secondary School",
-      "relation": "@",
-      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "7826e99aaaa96b52e15b9cd3@wl-field-hockey-calendar",
-      "details": "Tue, Aug 25 | 7:30 PM | Lake Braddock Secondary School | - | Lake Braddock Secondary School"
     },
     {
       "start_local": "2026-08-27T19:00:00-04:00",
