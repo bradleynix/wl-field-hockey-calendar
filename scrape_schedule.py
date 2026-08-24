@@ -346,18 +346,23 @@ def infer_location(block_lines: list[str], opponent: str) -> str:
 def parse_blocks(blocks: list[dict]) -> list[Event]:
     events: list[Event] = []
     seen_mutable: set[tuple] = set()
-    canceled_orders: set[int] = set()
 
     for order, block in enumerate(blocks):
         raw_text = clean_text(block.get("text", ""))
         if not raw_text:
             continue
 
-        # rSchoolToday sometimes leaves canceled contests in the schedule and places
-        # "Canceled" in the Results/Score column. Preserve the row through UID
-        # assignment, then omit it from the published ICS/HTML feed.
+        # rSchoolToday may keep an obsolete schedule row and mark it Canceled while
+        # publishing a separate replacement row for the real game. Treat the canceled
+        # row exactly like a deleted source record: it must not participate in date/time
+        # parsing, opponent/location inference, duplicate detection, UID assignment, or
+        # any other event logic.
         if is_canceled_schedule_entry(raw_text):
-            canceled_orders.add(order)
+            print(
+                "Ignoring canceled source row before event processing: "
+                + " | ".join(lines_of(raw_text))
+            )
+            continue
 
         start = parse_local_datetime(raw_text)
         if not start:
@@ -399,19 +404,7 @@ def parse_blocks(blocks: list[dict]) -> list[Event]:
 
     events.sort(key=lambda e: (e.start_local, e.source_order))
     assign_stable_uids(events)
-
-    active_events: list[Event] = []
-    for event in events:
-        if event.source_order in canceled_orders:
-            print(
-                "Skipping canceled schedule entry: "
-                f"{event.start_local:%Y-%m-%d %I:%M %p} "
-                f"{event.relation} {event.opponent}"
-            )
-            continue
-        active_events.append(event)
-
-    return active_events
+    return events
 
 
 def assign_stable_uids(events: list[Event]) -> None:
