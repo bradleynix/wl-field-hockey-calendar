@@ -23,7 +23,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \n-\n \nLake Braddock Secondary School",
+      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nW\n \n2\n-\n1\n \nLake Braddock Secondary School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -35,7 +35,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \n-\n \nWestfield High School",
+      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \nWestfield High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -151,7 +151,7 @@
       "relation": "@",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "7826e99aaaa96b52e15b9cd3@wl-field-hockey-calendar",
-      "details": "Tue, Aug 25 | 7:30 PM | Lake Braddock Secondary School | - | Lake Braddock Secondary School"
+      "details": "Tue, Aug 25 | 7:30 PM | Lake Braddock Secondary School | W | 2 | - | 1 | Lake Braddock Secondary School"
     },
     {
       "start_local": "2026-08-27T19:00:00-04:00",
@@ -160,7 +160,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "7779fbd9baad58e7c450aaa2@wl-field-hockey-calendar",
-      "details": "Thu, Aug 27 | 7:00 PM | Westfield HS | - | Westfield High School"
+      "details": "Thu, Aug 27 | 7:00 PM | Westfield HS | W | 4 | - | 1 | Westfield High School"
     },
     {
       "start_local": "2026-08-31T19:30:00-04:00",
