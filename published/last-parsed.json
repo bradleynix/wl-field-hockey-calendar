@@ -47,7 +47,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \n-\n \nWashington-Liberty HS",
+      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \nW\n \n2\n-\n1\n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -169,7 +169,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "668677dfece1d9d52cb592bf@wl-field-hockey-calendar",
-      "details": "Mon, Aug 31 | 7:30 PM | Robinson Secondary School | - | Washington-Liberty HS"
+      "details": "Mon, Aug 31 | 7:30 PM | Robinson Secondary School | W | 2 | - | 1 | Washington-Liberty HS"
     },
     {
       "start_local": "2026-09-02T19:30:00-04:00",
