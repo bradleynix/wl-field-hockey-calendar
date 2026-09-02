@@ -1,7 +1,7 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 20,
+  "block_count": 18,
   "event_count": 16,
   "blocks": [
     {
@@ -29,19 +29,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nCanceled\n \nLake Braddock Secondary School",
-      "hrefs": [],
-      "tag": "TR",
-      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
-    },
-    {
       "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \nWestfield High School",
-      "hrefs": [],
-      "tag": "TR",
-      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
-    },
-    {
-      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \n-\n \nWestfield High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
