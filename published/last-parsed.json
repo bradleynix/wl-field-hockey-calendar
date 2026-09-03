@@ -41,7 +41,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \n-\n \nWashington-Liberty HS",
+      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \nW\n \n4\n-\n0\n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -166,7 +166,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "645b064b792e2666c0a4e064@wl-field-hockey-calendar",
-      "details": "Wed, Sep 2 | 7:30 PM | South County Secondary | - | Washington-Liberty HS"
+      "details": "Wed, Sep 2 | 7:30 PM | South County Secondary | W | 4 | - | 0 | Washington-Liberty HS"
     },
     {
       "start_local": "2026-09-08T19:30:00-04:00",
