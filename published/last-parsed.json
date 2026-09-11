@@ -53,7 +53,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \n-\n \nWashington-Liberty HS\nFairfax High",
+      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \nW\n \n2\n-\n0\n \nWashington-Liberty HS\nFairfax High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -184,7 +184,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "1ab6337e1faa29d99a8adb34@wl-field-hockey-calendar",
-      "details": "Thu, Sep 10 | 7:30 PM | Fairfax HS | - | Washington-Liberty HS | Fairfax High"
+      "details": "Thu, Sep 10 | 7:30 PM | Fairfax HS | W | 2 | - | 0 | Washington-Liberty HS | Fairfax High"
     },
     {
       "start_local": "2026-09-14T19:15:00-04:00",
