@@ -59,7 +59,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \n-\n \nC.G. Woodson High School\nCG Woodson High",
+      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \nW\n \n1\n-\n0\n \nC.G. Woodson High School\nCG Woodson High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -193,7 +193,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "679ad0a94e90b071579b03e5@wl-field-hockey-calendar",
-      "details": "Mon, Sep 14 | 7:15 PM | CG Woodson HS | - | C.G. Woodson High School | CG Woodson High"
+      "details": "Mon, Sep 14 | 7:15 PM | CG Woodson HS | W | 1 | - | 0 | C.G. Woodson High School | CG Woodson High"
     },
     {
       "start_local": "2026-09-17T19:30:00-04:00",
