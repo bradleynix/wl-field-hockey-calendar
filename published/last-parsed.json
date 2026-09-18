@@ -65,7 +65,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \n-\n \nWashington-Liberty HS\nWest Potomac High",
+      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \nW\n \n3\n-\n0\n \nWashington-Liberty HS\nWest Potomac High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -202,7 +202,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "0b5e64ed514afcdac0bd1eff@wl-field-hockey-calendar",
-      "details": "Thu, Sep 17 | 7:30 PM | West Potomac HS | - | Washington-Liberty HS | West Potomac High"
+      "details": "Thu, Sep 17 | 7:30 PM | West Potomac HS | W | 3 | - | 0 | Washington-Liberty HS | West Potomac High"
     },
     {
       "start_local": "2026-09-22T19:30:00-04:00",
