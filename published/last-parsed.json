@@ -77,7 +77,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \n-\n \nWashington-Liberty HS\nLangley High",
+      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \nW\n \n5\n-\n2\n \nWashington-Liberty HS\nLangley High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -220,7 +220,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "b642850ef809d0a4bed62fbf@wl-field-hockey-calendar",
-      "details": "Thu, Sep 24 | 7:30 PM | Langley HS | - | Washington-Liberty HS | Langley High"
+      "details": "Thu, Sep 24 | 7:30 PM | Langley HS | W | 5 | - | 2 | Washington-Liberty HS | Langley High"
     },
     {
       "start_local": "2026-09-28T19:30:00-04:00",
