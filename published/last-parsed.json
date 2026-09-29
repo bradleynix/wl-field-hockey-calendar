@@ -83,7 +83,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \n-\n \nGeorge C Marshall High School",
+      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \nL\n \n1\n-\n4\n \nGeorge C Marshall High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -229,7 +229,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "c676d13c6e2188d401a3e118@wl-field-hockey-calendar",
-      "details": "Mon, Sep 28 | 7:30 PM | George C Marshall HS | - | George C Marshall High School"
+      "details": "Mon, Sep 28 | 7:30 PM | George C Marshall HS | L | 1 | - | 4 | George C Marshall High School"
     },
     {
       "start_local": "2026-09-29T19:30:00-04:00",
