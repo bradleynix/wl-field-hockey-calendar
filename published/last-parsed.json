@@ -89,7 +89,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \n-\n \nWashington-Liberty HS\nWakefield High",
+      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \nW\n \n6\n-\n0\n \nWashington-Liberty HS\nWakefield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -238,7 +238,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "eafc90c21332e03e827a2824@wl-field-hockey-calendar",
-      "details": "Tue, Sep 29 | 7:30 PM | Wakefield HS | - | Washington-Liberty HS | Wakefield High"
+      "details": "Tue, Sep 29 | 7:30 PM | Wakefield HS | W | 6 | - | 0 | Washington-Liberty HS | Wakefield High"
     },
     {
       "start_local": "2026-10-06T19:30:00-04:00",
