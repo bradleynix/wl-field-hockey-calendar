@@ -5,109 +5,109 @@
   "event_count": 16,
   "blocks": [
     {
-      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \nWashington-Liberty HS\nWest Springfield High",
+      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \nWashington-Liberty HS\nWest Springfield High",
+      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Aug 20\n7:30 PM\n \nAnnandale HS\n \n-\n \nAnnandale HS\nAnnandale High",
+      "text": "Thu, Aug 20\n7:30 PM\n \nAnnandale HS\n \n-\n \n \nAnnandale HS\nAnnandale High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nW\n \n2\n-\n1\n \nLake Braddock Secondary School",
+      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nW\n \n2\n-\n1\n \n \nLake Braddock Secondary School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \nWestfield High School",
+      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \n \nWestfield High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \nW\n \n2\n-\n1\n \nWashington-Liberty HS",
+      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \nW\n \n2\n-\n1\n \n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \nW\n \n4\n-\n0\n \nWashington-Liberty HS",
+      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \nW\n \n4\n-\n0\n \n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \nHayfield High School",
+      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \n \nHayfield High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \nW\n \n2\n-\n0\n \nWashington-Liberty HS\nFairfax High",
+      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \nW\n \n2\n-\n0\n \n \nWashington-Liberty HS\nFairfax High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \nW\n \n1\n-\n0\n \nC.G. Woodson High School\nCG Woodson High",
+      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \nW\n \n1\n-\n0\n \n \nC.G. Woodson High School\nCG Woodson High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \nW\n \n3\n-\n0\n \nWashington-Liberty HS\nWest Potomac High",
+      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \nW\n \n3\n-\n0\n \n \nWashington-Liberty HS\nWest Potomac High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 22\n7:30 PM\n \nYorktown HS\n \nL\n \n1\n-\n2\n \nYorktown High School",
+      "text": "Tue, Sep 22\n7:30 PM\n \nYorktown HS\n \nL\n \n1\n-\n2\n \n \nYorktown High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \nW\n \n5\n-\n2\n \nWashington-Liberty HS\nLangley High",
+      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \nW\n \n5\n-\n2\n \n \nWashington-Liberty HS\nLangley High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \nL\n \n1\n-\n4\n \nGeorge C Marshall High School",
+      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \nL\n \n1\n-\n4\n \n \nGeorge C Marshall High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \nW\n \n6\n-\n0\n \nWashington-Liberty HS\nWakefield High",
+      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \nW\n \n6\n-\n0\n \n \nWashington-Liberty HS\nWakefield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \n-\n \nMcLean HS\nMcLean High",
+      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \n-\n \n \nMcLean HS\nMcLean High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Wed, Oct 7\n7:30 PM\n \nHerndon HS\n \n-\n \nWashington-Liberty HS\nHerndon High",
+      "text": "Wed, Oct 7\n7:30 PM\n \nHerndon HS\n \n-\n \n \nWashington-Liberty HS\nHerndon High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nCanceled\n \nWashington-Liberty HS\nHerndon High",
+      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nCanceled\n \n \nWashington-Liberty HS\nHerndon High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
