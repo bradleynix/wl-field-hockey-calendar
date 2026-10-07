@@ -1,8 +1,8 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 18,
-  "event_count": 16,
+  "block_count": 24,
+  "event_count": 22,
   "blocks": [
     {
       "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
@@ -95,7 +95,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \n-\n \n \nMcLean HS\nMcLean High",
+      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \nW\n \n5\n-\n0\n \n \nMcLean HS\nMcLean High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -108,6 +108,42 @@
     },
     {
       "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nCanceled\n \n \nWashington-Liberty HS\nHerndon High",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Fri, Oct 16\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Tue, Oct 20\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Thu, Oct 22\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Mon, Oct 26\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Wed, Oct 28\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Fri, Oct 30\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -247,7 +283,7 @@
       "relation": "@",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "ce68d81e66b2ceb80df5a4ca@wl-field-hockey-calendar",
-      "details": "Tue, Oct 6 | 7:30 PM | McLean HS | - | McLean HS | McLean High"
+      "details": "Tue, Oct 6 | 7:30 PM | McLean HS | W | 5 | - | 0 | McLean HS | McLean High"
     },
     {
       "start_local": "2026-10-07T19:30:00-04:00",
@@ -257,6 +293,60 @@
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "38caec5e1692e89a01bbbf57@wl-field-hockey-calendar",
       "details": "Wed, Oct 7 | 7:30 PM | Herndon HS | - | Washington-Liberty HS | Herndon High"
+    },
+    {
+      "start_local": "2026-10-16T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
+      "details": "Fri, Oct 16 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-20T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "f623fc67caf79dc75f917f20@wl-field-hockey-calendar",
+      "details": "Tue, Oct 20 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-22T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "7f554c4b7512de30fe996d99@wl-field-hockey-calendar",
+      "details": "Thu, Oct 22 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-26T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "8bd04938d4d8a4106cc0c316@wl-field-hockey-calendar",
+      "details": "Mon, Oct 26 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-28T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "5c7427bf6a6427bd1667d9d4@wl-field-hockey-calendar",
+      "details": "Wed, Oct 28 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-30T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "687b92821ff1d726f1625794@wl-field-hockey-calendar",
+      "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS"
     }
   ]
 }
