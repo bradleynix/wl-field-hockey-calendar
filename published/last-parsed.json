@@ -1,8 +1,8 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 24,
-  "event_count": 22,
+  "block_count": 25,
+  "event_count": 23,
   "blocks": [
     {
       "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
@@ -107,7 +107,13 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nCanceled\n \n \nWashington-Liberty HS\nHerndon High",
+      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nW\n \nCanceled\n \n \nWashington-Liberty HS\nHerndon High",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Thu, Oct 15\n6:30 PM\n \nTBA\n \n-\n \n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -295,12 +301,21 @@
       "details": "Wed, Oct 7 | 7:30 PM | Herndon HS | W | 3 | - | 1 | Washington-Liberty HS | Herndon High"
     },
     {
-      "start_local": "2026-10-16T19:00:00-04:00",
+      "start_local": "2026-10-15T18:30:00-04:00",
       "opponent": "TBA",
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
+      "details": "Thu, Oct 15 | 6:30 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-16T19:00:00-04:00",
+      "opponent": "TBA",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "f623fc67caf79dc75f917f20@wl-field-hockey-calendar",
       "details": "Fri, Oct 16 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -309,7 +324,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "f623fc67caf79dc75f917f20@wl-field-hockey-calendar",
+      "uid": "7f554c4b7512de30fe996d99@wl-field-hockey-calendar",
       "details": "Tue, Oct 20 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -318,7 +333,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "7f554c4b7512de30fe996d99@wl-field-hockey-calendar",
+      "uid": "8bd04938d4d8a4106cc0c316@wl-field-hockey-calendar",
       "details": "Thu, Oct 22 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -327,7 +342,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "8bd04938d4d8a4106cc0c316@wl-field-hockey-calendar",
+      "uid": "5c7427bf6a6427bd1667d9d4@wl-field-hockey-calendar",
       "details": "Mon, Oct 26 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -336,7 +351,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "5c7427bf6a6427bd1667d9d4@wl-field-hockey-calendar",
+      "uid": "687b92821ff1d726f1625794@wl-field-hockey-calendar",
       "details": "Wed, Oct 28 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -345,7 +360,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "687b92821ff1d726f1625794@wl-field-hockey-calendar",
+      "uid": "7ffbefd2823e9980b82bb40f@wl-field-hockey-calendar",
       "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS"
     }
   ]
