@@ -1,7 +1,7 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 26,
+  "block_count": 25,
   "event_count": 23,
   "blocks": [
     {
@@ -114,12 +114,6 @@
     },
     {
       "text": "Thu, Oct 15\n6:30 PM\n \nTBA\n \n-\n \n \nWashington-Liberty HS",
-      "hrefs": [],
-      "tag": "TR",
-      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
-    },
-    {
-      "text": "Fri, Oct 16\n7:00 PM\n \nTBA\n \n-\n \n \nWashington-Liberty HS",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
