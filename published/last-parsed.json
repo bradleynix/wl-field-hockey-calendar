@@ -113,7 +113,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Fri, Oct 16\n7:00 PM\n \nHerndon HS\n \n-\n \nWashington-Liberty HS\nHerndon High",
+      "text": "Fri, Oct 16\n7:00 PM\n \nHerndon HS\n \nW\n \n6\n-\n0\n \nWashington-Liberty HS\nHerndon High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -301,7 +301,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "f8df825c8083735bbbec013a@wl-field-hockey-calendar",
-      "details": "Fri, Oct 16 | 7:00 PM | Herndon HS | - | Washington-Liberty HS | Herndon High"
+      "details": "Fri, Oct 16 | 7:00 PM | Herndon HS | W | 6 | - | 0 | Washington-Liberty HS | Herndon High"
     },
     {
       "start_local": "2026-10-20T19:00:00-04:00",
