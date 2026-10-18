@@ -119,7 +119,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 20\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \n-\n \nYorktown High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -305,12 +305,12 @@
     },
     {
       "start_local": "2026-10-20T19:00:00-04:00",
-      "opponent": "TBA",
-      "location": "Washington-Liberty HS",
+      "opponent": "Yorktown HS",
+      "location": "Yorktown High School",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
-      "details": "Tue, Oct 20 | 7:00 PM | TBA | - | Washington-Liberty HS"
+      "uid": "8074ee58f6ee857afa8312e4@wl-field-hockey-calendar",
+      "details": "Tue, Oct 20 | 7:00 PM | Yorktown HS | - | Yorktown High School"
     },
     {
       "start_local": "2026-10-22T19:00:00-04:00",
@@ -318,7 +318,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "f623fc67caf79dc75f917f20@wl-field-hockey-calendar",
+      "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
       "details": "Thu, Oct 22 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -327,7 +327,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "7f554c4b7512de30fe996d99@wl-field-hockey-calendar",
+      "uid": "f623fc67caf79dc75f917f20@wl-field-hockey-calendar",
       "details": "Mon, Oct 26 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -336,7 +336,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "8bd04938d4d8a4106cc0c316@wl-field-hockey-calendar",
+      "uid": "7f554c4b7512de30fe996d99@wl-field-hockey-calendar",
       "details": "Wed, Oct 28 | 7:00 PM | TBA | - | Washington-Liberty HS"
     },
     {
@@ -345,7 +345,7 @@
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "5c7427bf6a6427bd1667d9d4@wl-field-hockey-calendar",
+      "uid": "8bd04938d4d8a4106cc0c316@wl-field-hockey-calendar",
       "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS"
     }
   ]
