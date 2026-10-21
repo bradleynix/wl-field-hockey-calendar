@@ -119,7 +119,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \n-\n \nYorktown High School",
+      "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \nL\n \n2\n-\n4\n \nYorktown High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -310,7 +310,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "8074ee58f6ee857afa8312e4@wl-field-hockey-calendar",
-      "details": "Tue, Oct 20 | 7:00 PM | Yorktown HS | - | Yorktown High School"
+      "details": "Tue, Oct 20 | 7:00 PM | Yorktown HS | L | 2 | - | 4 | Yorktown High School"
     },
     {
       "start_local": "2026-10-22T19:00:00-04:00",
