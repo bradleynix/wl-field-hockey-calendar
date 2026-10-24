@@ -1,7 +1,7 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 25,
+  "block_count": 24,
   "event_count": 22,
   "blocks": [
     {
@@ -120,12 +120,6 @@
     },
     {
       "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \nL\n \n2\n-\n4\n \nYorktown High School",
-      "hrefs": [],
-      "tag": "TR",
-      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
-    },
-    {
-      "text": "Mon, Oct 26\n7:00 PM\n \nSouth Lakes HS\n \n-\n \n \nSouth Lakes High School",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -320,21 +314,21 @@
     },
     {
       "start_local": "2026-10-26T19:00:00-04:00",
-      "opponent": "South Lakes HS",
-      "location": "South Lakes High School",
-      "relation": "vs",
-      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "0409a971a2ac50820b646577@wl-field-hockey-calendar",
-      "details": "Mon, Oct 26 | 7:00 PM | South Lakes HS | - | South Lakes High School"
-    },
-    {
-      "start_local": "2026-10-26T19:00:00-04:00",
       "opponent": "TBA",
       "location": "Washington-Liberty HS",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
       "details": "Mon, Oct 26 | 7:00 PM | TBA | - | Washington-Liberty HS"
+    },
+    {
+      "start_local": "2026-10-26T19:00:00-04:00",
+      "opponent": "South Lakes HS",
+      "location": "South Lakes High School",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "0409a971a2ac50820b646577@wl-field-hockey-calendar",
+      "details": "Mon, Oct 26 | 7:00 PM | South Lakes HS | - | South Lakes High School"
     },
     {
       "start_local": "2026-10-28T19:00:00-04:00",
