@@ -47,7 +47,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \n \nHayfield High School",
+      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \n \nHayfield Secondary School\nHayfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -201,11 +201,11 @@
     {
       "start_local": "2026-09-08T19:30:00-04:00",
       "opponent": "Hayfield HS",
-      "location": "Hayfield High School",
+      "location": "Hayfield Secondary School",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "95f60abfb711fb4d7c7e1215@wl-field-hockey-calendar",
-      "details": "Tue, Sep 8 | 7:30 PM | Hayfield HS | W | 3 | - | 1 | Hayfield High School"
+      "details": "Tue, Sep 8 | 7:30 PM | Hayfield HS | W | 3 | - | 1 | Hayfield Secondary School | Hayfield High"
     },
     {
       "start_local": "2026-09-10T19:30:00-04:00",
