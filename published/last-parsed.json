@@ -1,131 +1,143 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 21,
-  "event_count": 19,
+  "block_count": 23,
+  "event_count": 20,
   "blocks": [
     {
-      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
+      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nTue, Aug 11 7:30 PM, view game details\nWest Springfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nWest Springfield High",
+      "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nTue, Aug 11 7:30 PM, view game details\nWest Springfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Aug 20\n7:30 PM\n \nAnnandale HS\n \n-\n \n \nAnnandale HS\nAnnandale High",
+      "text": "Thu, Aug 20\n7:30 PM\n \nAnnandale HS\n \n-\n \n \nAnnandale HS\nThu, Aug 20 7:30 PM, view game details\nAnnandale High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nW\n \n2\n-\n1\n \n \nLake Braddock Secondary School",
+      "text": "Tue, Aug 25\n7:30 PM\n \nLake Braddock Secondary School\n \nW\n \n2\n-\n1\n \n \nLake Braddock Secondary School\nTue, Aug 25 7:30 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \n \nWestfield High School",
+      "text": "Thu, Aug 27\n7:00 PM\n \nWestfield HS\n \nW\n \n4\n-\n1\n \n \nWestfield High School\nThu, Aug 27 7:00 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \nW\n \n2\n-\n1\n \n \nWashington-Liberty HS",
+      "text": "Mon, Aug 31\n7:30 PM\n \nRobinson Secondary School\n \nW\n \n2\n-\n1\n \n \nWashington-Liberty HS\nMon, Aug 31 7:30 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \nW\n \n4\n-\n0\n \n \nWashington-Liberty HS",
+      "text": "Wed, Sep 2\n7:30 PM\n \nSouth County Secondary\n \nW\n \n4\n-\n0\n \n \nWashington-Liberty HS\nWed, Sep 2 7:30 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \n \nHayfield Secondary School\nHayfield High",
+      "text": "Tue, Sep 8\n7:30 PM\n \nHayfield HS\n \nW\n \n3\n-\n1\n \n \nHayfield Secondary School\nTue, Sep 8 7:30 PM, view game details\nHayfield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \nW\n \n2\n-\n0\n \n \nWashington-Liberty HS\nFairfax High",
+      "text": "Thu, Sep 10\n7:30 PM\n \nFairfax HS\n \nW\n \n2\n-\n0\n \n \nWashington-Liberty HS\nThu, Sep 10 7:30 PM, view game details\nFairfax High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \nW\n \n1\n-\n0\n \n \nC.G. Woodson High School\nCG Woodson High",
+      "text": "Mon, Sep 14\n7:15 PM\n \nCG Woodson HS\n \nW\n \n1\n-\n0\n \n \nC.G. Woodson High School\nMon, Sep 14 7:15 PM, view game details\nCG Woodson High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \nW\n \n3\n-\n0\n \n \nWashington-Liberty HS\nWest Potomac High",
+      "text": "Thu, Sep 17\n7:30 PM\n \nWest Potomac HS\n \nW\n \n3\n-\n0\n \n \nWashington-Liberty HS\nThu, Sep 17 7:30 PM, view game details\nWest Potomac High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 22\n7:30 PM\n \nYorktown HS\n \nL\n \n1\n-\n2\n \n \nYorktown High School",
+      "text": "Tue, Sep 22\n7:30 PM\n \nYorktown HS\n \nL\n \n1\n-\n2\n \n \nYorktown High School\nTue, Sep 22 7:30 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \nW\n \n5\n-\n2\n \n \nWashington-Liberty HS\nLangley High",
+      "text": "Thu, Sep 24\n7:30 PM\n \nLangley HS\n \nW\n \n5\n-\n2\n \n \nWashington-Liberty HS\nThu, Sep 24 7:30 PM, view game details\nLangley High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \nL\n \n1\n-\n4\n \n \nGeorge C Marshall High School",
+      "text": "Mon, Sep 28\n7:30 PM\n \nGeorge C Marshall HS\n \nL\n \n1\n-\n4\n \n \nGeorge C Marshall High School\nMon, Sep 28 7:30 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \nW\n \n6\n-\n0\n \n \nWashington-Liberty HS\nWakefield High",
+      "text": "Tue, Sep 29\n7:30 PM\n \nWakefield HS\n \nW\n \n6\n-\n0\n \n \nWashington-Liberty HS\nTue, Sep 29 7:30 PM, view game details\nWakefield High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \nW\n \n5\n-\n0\n \n \nMcLean HS\nMcLean High",
+      "text": "Tue, Oct 6\n7:30 PM\n \nMcLean HS\n \nW\n \n5\n-\n0\n \n \nMcLean HS\nTue, Oct 6 7:30 PM, view game details\nMcLean High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Wed, Oct 7\n7:30 PM\n \nHerndon HS\n \nW\n \n3\n-\n1\n \n \nWashington-Liberty HS\nHerndon High",
+      "text": "Wed, Oct 7\n7:30 PM\n \nHerndon HS\n \nW\n \n3\n-\n1\n \n \nWashington-Liberty HS\nWed, Oct 7 7:30 PM, view game details\nHerndon High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nW\n \nCanceled\n \n \nWashington-Liberty HS\nHerndon High",
+      "text": "Thu, Oct 8\n7:30 PM\n \nHerndon HS\n \nW\n \nCanceled\n \n \nWashington-Liberty HS\nThu, Oct 8 7:30 PM, view game details\nHerndon High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Fri, Oct 16\n7:00 PM\n \nHerndon HS\n \nW\n \n6\n-\n0\n \nWashington-Liberty HS\nHerndon High",
+      "text": "Fri, Oct 16\n7:00 PM\n \nHerndon HS\n \nW\n \n6\n-\n0\n \n \nWashington-Liberty HS\nFri, Oct 16 7:00 PM, view game details\nHerndon High\nPostseason game badge",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \nL\n \n2\n-\n4\n \nYorktown High School",
+      "text": "Tue, Oct 20\n7:00 PM\n \nYorktown HS\n \nL\n \n2\n-\n4\n \n \nYorktown High School\nTue, Oct 20 7:00 PM, view game details\nPostseason game badge",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Fri, Oct 30\n7:00 PM\n \nTBA\n \n-\n \nWashington-Liberty HS",
+      "text": "Thu, Oct 29\n7:00 PM\n \nOakton HS\n \n-\n \n \nOakton High School\nThu, Oct 29 7:00 PM, view game details",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Fri, Oct 30\n7:00 PM\n \nAlexandria City HS\n \nCanceled\n \n \nWashington-Liberty HS\nFri, Oct 30 7:00 PM, view game details\nAlexandria City High\nPostseason game badge",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Fri, Oct 30\n7:00 PM\n \nTBA\n \n-\n \n \nWashington-Liberty HS\nFri, Oct 30 7:00 PM, view game details\nPostseason game badge",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -139,7 +151,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "7d7679a97ca94efb95f6fbfa@wl-field-hockey-calendar",
-      "details": "Tue, Aug 11 | 7:30 PM | West Springfield HS | - | Washington-Liberty HS | West Springfield High"
+      "details": "Tue, Aug 11 | 7:30 PM | West Springfield HS | - | Washington-Liberty HS | Tue, Aug 11 7:30 PM, view game details | West Springfield High"
     },
     {
       "start_local": "2026-08-20T19:30:00-04:00",
@@ -148,7 +160,7 @@
       "relation": "@",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "ad8acaede3c45ea66e3ede95@wl-field-hockey-calendar",
-      "details": "Thu, Aug 20 | 7:30 PM | Annandale HS | - | Annandale HS | Annandale High"
+      "details": "Thu, Aug 20 | 7:30 PM | Annandale HS | - | Annandale HS | Thu, Aug 20 7:30 PM, view game details | Annandale High"
     },
     {
       "start_local": "2026-08-25T19:30:00-04:00",
@@ -157,7 +169,7 @@
       "relation": "@",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "7826e99aaaa96b52e15b9cd3@wl-field-hockey-calendar",
-      "details": "Tue, Aug 25 | 7:30 PM | Lake Braddock Secondary School | W | 2 | - | 1 | Lake Braddock Secondary School"
+      "details": "Tue, Aug 25 | 7:30 PM | Lake Braddock Secondary School | W | 2 | - | 1 | Lake Braddock Secondary School | Tue, Aug 25 7:30 PM, view game details"
     },
     {
       "start_local": "2026-08-27T19:00:00-04:00",
@@ -166,7 +178,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "7779fbd9baad58e7c450aaa2@wl-field-hockey-calendar",
-      "details": "Thu, Aug 27 | 7:00 PM | Westfield HS | W | 4 | - | 1 | Westfield High School"
+      "details": "Thu, Aug 27 | 7:00 PM | Westfield HS | W | 4 | - | 1 | Westfield High School | Thu, Aug 27 7:00 PM, view game details"
     },
     {
       "start_local": "2026-08-31T19:30:00-04:00",
@@ -175,7 +187,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "668677dfece1d9d52cb592bf@wl-field-hockey-calendar",
-      "details": "Mon, Aug 31 | 7:30 PM | Robinson Secondary School | W | 2 | - | 1 | Washington-Liberty HS"
+      "details": "Mon, Aug 31 | 7:30 PM | Robinson Secondary School | W | 2 | - | 1 | Washington-Liberty HS | Mon, Aug 31 7:30 PM, view game details"
     },
     {
       "start_local": "2026-09-02T19:30:00-04:00",
@@ -184,7 +196,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "645b064b792e2666c0a4e064@wl-field-hockey-calendar",
-      "details": "Wed, Sep 2 | 7:30 PM | South County Secondary | W | 4 | - | 0 | Washington-Liberty HS"
+      "details": "Wed, Sep 2 | 7:30 PM | South County Secondary | W | 4 | - | 0 | Washington-Liberty HS | Wed, Sep 2 7:30 PM, view game details"
     },
     {
       "start_local": "2026-09-08T19:30:00-04:00",
@@ -193,7 +205,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "95f60abfb711fb4d7c7e1215@wl-field-hockey-calendar",
-      "details": "Tue, Sep 8 | 7:30 PM | Hayfield HS | W | 3 | - | 1 | Hayfield Secondary School | Hayfield High"
+      "details": "Tue, Sep 8 | 7:30 PM | Hayfield HS | W | 3 | - | 1 | Hayfield Secondary School | Tue, Sep 8 7:30 PM, view game details | Hayfield High"
     },
     {
       "start_local": "2026-09-10T19:30:00-04:00",
@@ -202,7 +214,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "1ab6337e1faa29d99a8adb34@wl-field-hockey-calendar",
-      "details": "Thu, Sep 10 | 7:30 PM | Fairfax HS | W | 2 | - | 0 | Washington-Liberty HS | Fairfax High"
+      "details": "Thu, Sep 10 | 7:30 PM | Fairfax HS | W | 2 | - | 0 | Washington-Liberty HS | Thu, Sep 10 7:30 PM, view game details | Fairfax High"
     },
     {
       "start_local": "2026-09-14T19:15:00-04:00",
@@ -211,7 +223,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "679ad0a94e90b071579b03e5@wl-field-hockey-calendar",
-      "details": "Mon, Sep 14 | 7:15 PM | CG Woodson HS | W | 1 | - | 0 | C.G. Woodson High School | CG Woodson High"
+      "details": "Mon, Sep 14 | 7:15 PM | CG Woodson HS | W | 1 | - | 0 | C.G. Woodson High School | Mon, Sep 14 7:15 PM, view game details | CG Woodson High"
     },
     {
       "start_local": "2026-09-17T19:30:00-04:00",
@@ -220,7 +232,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "0b5e64ed514afcdac0bd1eff@wl-field-hockey-calendar",
-      "details": "Thu, Sep 17 | 7:30 PM | West Potomac HS | W | 3 | - | 0 | Washington-Liberty HS | West Potomac High"
+      "details": "Thu, Sep 17 | 7:30 PM | West Potomac HS | W | 3 | - | 0 | Washington-Liberty HS | Thu, Sep 17 7:30 PM, view game details | West Potomac High"
     },
     {
       "start_local": "2026-09-22T19:30:00-04:00",
@@ -229,7 +241,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "3b57974f295eedc629d06d04@wl-field-hockey-calendar",
-      "details": "Tue, Sep 22 | 7:30 PM | Yorktown HS | L | 1 | - | 2 | Yorktown High School"
+      "details": "Tue, Sep 22 | 7:30 PM | Yorktown HS | L | 1 | - | 2 | Yorktown High School | Tue, Sep 22 7:30 PM, view game details"
     },
     {
       "start_local": "2026-09-24T19:30:00-04:00",
@@ -238,7 +250,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "b642850ef809d0a4bed62fbf@wl-field-hockey-calendar",
-      "details": "Thu, Sep 24 | 7:30 PM | Langley HS | W | 5 | - | 2 | Washington-Liberty HS | Langley High"
+      "details": "Thu, Sep 24 | 7:30 PM | Langley HS | W | 5 | - | 2 | Washington-Liberty HS | Thu, Sep 24 7:30 PM, view game details | Langley High"
     },
     {
       "start_local": "2026-09-28T19:30:00-04:00",
@@ -247,7 +259,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "c676d13c6e2188d401a3e118@wl-field-hockey-calendar",
-      "details": "Mon, Sep 28 | 7:30 PM | George C Marshall HS | L | 1 | - | 4 | George C Marshall High School"
+      "details": "Mon, Sep 28 | 7:30 PM | George C Marshall HS | L | 1 | - | 4 | George C Marshall High School | Mon, Sep 28 7:30 PM, view game details"
     },
     {
       "start_local": "2026-09-29T19:30:00-04:00",
@@ -256,7 +268,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "eafc90c21332e03e827a2824@wl-field-hockey-calendar",
-      "details": "Tue, Sep 29 | 7:30 PM | Wakefield HS | W | 6 | - | 0 | Washington-Liberty HS | Wakefield High"
+      "details": "Tue, Sep 29 | 7:30 PM | Wakefield HS | W | 6 | - | 0 | Washington-Liberty HS | Tue, Sep 29 7:30 PM, view game details | Wakefield High"
     },
     {
       "start_local": "2026-10-06T19:30:00-04:00",
@@ -265,7 +277,7 @@
       "relation": "@",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "ce68d81e66b2ceb80df5a4ca@wl-field-hockey-calendar",
-      "details": "Tue, Oct 6 | 7:30 PM | McLean HS | W | 5 | - | 0 | McLean HS | McLean High"
+      "details": "Tue, Oct 6 | 7:30 PM | McLean HS | W | 5 | - | 0 | McLean HS | Tue, Oct 6 7:30 PM, view game details | McLean High"
     },
     {
       "start_local": "2026-10-07T19:30:00-04:00",
@@ -274,7 +286,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "38caec5e1692e89a01bbbf57@wl-field-hockey-calendar",
-      "details": "Wed, Oct 7 | 7:30 PM | Herndon HS | W | 3 | - | 1 | Washington-Liberty HS | Herndon High"
+      "details": "Wed, Oct 7 | 7:30 PM | Herndon HS | W | 3 | - | 1 | Washington-Liberty HS | Wed, Oct 7 7:30 PM, view game details | Herndon High"
     },
     {
       "start_local": "2026-10-16T19:00:00-04:00",
@@ -283,7 +295,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "f8df825c8083735bbbec013a@wl-field-hockey-calendar",
-      "details": "Fri, Oct 16 | 7:00 PM | Herndon HS | W | 6 | - | 0 | Washington-Liberty HS | Herndon High"
+      "details": "Fri, Oct 16 | 7:00 PM | Herndon HS | W | 6 | - | 0 | Washington-Liberty HS | Fri, Oct 16 7:00 PM, view game details | Herndon High | Postseason game badge"
     },
     {
       "start_local": "2026-10-20T19:00:00-04:00",
@@ -292,7 +304,16 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "8074ee58f6ee857afa8312e4@wl-field-hockey-calendar",
-      "details": "Tue, Oct 20 | 7:00 PM | Yorktown HS | L | 2 | - | 4 | Yorktown High School"
+      "details": "Tue, Oct 20 | 7:00 PM | Yorktown HS | L | 2 | - | 4 | Yorktown High School | Tue, Oct 20 7:00 PM, view game details | Postseason game badge"
+    },
+    {
+      "start_local": "2026-10-29T19:00:00-04:00",
+      "opponent": "Oakton HS",
+      "location": "Oakton High School",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "ecd6f323cf46fcd13af89eca@wl-field-hockey-calendar",
+      "details": "Thu, Oct 29 | 7:00 PM | Oakton HS | - | Oakton High School | Thu, Oct 29 7:00 PM, view game details"
     },
     {
       "start_local": "2026-10-30T19:00:00-04:00",
@@ -301,7 +322,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
-      "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS"
+      "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS | Fri, Oct 30 7:00 PM, view game details | Postseason game badge"
     }
   ]
 }
