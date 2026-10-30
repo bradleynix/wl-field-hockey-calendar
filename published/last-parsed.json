@@ -137,7 +137,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Fri, Oct 30\n7:00 PM\n \nTBA\n \n-\n \n \nWashington-Liberty HS\nFri, Oct 30 7:00 PM, view game details\nPostseason game badge",
+      "text": "Sat, Nov 7\n1:00 PM\n \nCosby HS\n \n-\n \n \nMonacan High School\nSat, Nov 7 1:00 PM, view game details\nCosby High\nPostseason game badge",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -316,13 +316,13 @@
       "details": "Thu, Oct 29 | 7:00 PM | Oakton HS | - | Oakton High School | Thu, Oct 29 7:00 PM, view game details"
     },
     {
-      "start_local": "2026-10-30T19:00:00-04:00",
-      "opponent": "TBA",
-      "location": "Washington-Liberty HS",
+      "start_local": "2026-11-07T13:00:00-05:00",
+      "opponent": "Cosby HS",
+      "location": "Monacan High School",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
-      "uid": "10386f7ed6868cc357b7e4ea@wl-field-hockey-calendar",
-      "details": "Fri, Oct 30 | 7:00 PM | TBA | - | Washington-Liberty HS | Fri, Oct 30 7:00 PM, view game details | Postseason game badge"
+      "uid": "e147d36615f16e32ac10004e@wl-field-hockey-calendar",
+      "details": "Sat, Nov 7 | 1:00 PM | Cosby HS | - | Monacan High School | Sat, Nov 7 1:00 PM, view game details | Cosby High | Postseason game badge"
     }
   ]
 }
