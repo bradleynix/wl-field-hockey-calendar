@@ -1,8 +1,8 @@
 {
   "source": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
   "season_year": 2026,
-  "block_count": 23,
-  "event_count": 20,
+  "block_count": 24,
+  "event_count": 21,
   "blocks": [
     {
       "text": "Tue, Aug 11\n7:30 PM\n \nWest Springfield HS\n \n-\n \n \nWashington-Liberty HS\nTue, Aug 11 7:30 PM, view game details\nWest Springfield High",
@@ -137,7 +137,13 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Sat, Nov 7\n1:00 PM\n \nCosby HS\n \n-\n \n \nMonacan High School\nSat, Nov 7 1:00 PM, view game details\nCosby High\nPostseason game badge",
+      "text": "Sat, Nov 7\n1:00 PM\n \nCosby HS\n \nW\n \n2\n-\n1\n \n \nMonacan High School\nSat, Nov 7 1:00 PM, view game details\nCosby High\nPostseason game badge",
+      "hrefs": [],
+      "tag": "TR",
+      "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
+    },
+    {
+      "text": "Tue, Nov 10\n6:00 PM\n \nIndependence HS\n \n-\n \n \nWashington-Liberty HS\nTue, Nov 10 6:00 PM, view game details\nIndependence High",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -322,7 +328,16 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "e147d36615f16e32ac10004e@wl-field-hockey-calendar",
-      "details": "Sat, Nov 7 | 1:00 PM | Cosby HS | - | Monacan High School | Sat, Nov 7 1:00 PM, view game details | Cosby High | Postseason game badge"
+      "details": "Sat, Nov 7 | 1:00 PM | Cosby HS | W | 2 | - | 1 | Monacan High School | Sat, Nov 7 1:00 PM, view game details | Cosby High | Postseason game badge"
+    },
+    {
+      "start_local": "2026-11-10T18:00:00-05:00",
+      "opponent": "Independence HS",
+      "location": "Washington-Liberty HS",
+      "relation": "vs",
+      "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
+      "uid": "300b1f9b5d90c1c95f2d3b29@wl-field-hockey-calendar",
+      "details": "Tue, Nov 10 | 6:00 PM | Independence HS | - | Washington-Liberty HS | Tue, Nov 10 6:00 PM, view game details | Independence High"
     }
   ]
 }
