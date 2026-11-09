@@ -143,7 +143,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Nov 10\n6:00 PM\n \nIndependence HS\n \n-\n \n \nWashington-Liberty HS\nTue, Nov 10 6:00 PM, view game details\nIndependence High",
+      "text": "Tue, Nov 10\n6:00 PM\n \nIndependence HS\n \n-\n \n \nIndependence High School\nTue, Nov 10 6:00 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -333,11 +333,11 @@
     {
       "start_local": "2026-11-10T18:00:00-05:00",
       "opponent": "Independence HS",
-      "location": "Washington-Liberty HS",
+      "location": "Independence High School",
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "300b1f9b5d90c1c95f2d3b29@wl-field-hockey-calendar",
-      "details": "Tue, Nov 10 | 6:00 PM | Independence HS | - | Washington-Liberty HS | Tue, Nov 10 6:00 PM, view game details | Independence High"
+      "details": "Tue, Nov 10 | 6:00 PM | Independence HS | - | Independence High School | Tue, Nov 10 6:00 PM, view game details"
     }
   ]
 }
