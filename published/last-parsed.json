@@ -143,7 +143,7 @@
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
     },
     {
-      "text": "Tue, Nov 10\n6:00 PM\n \nIndependence HS\n \n-\n \n \nIndependence High School\nTue, Nov 10 6:00 PM, view game details",
+      "text": "Tue, Nov 10\n6:00 PM\n \nIndependence HS\n \nL\n \n1\n-\n7\n \n \nIndependence High School\nTue, Nov 10 6:00 PM, view game details",
       "hrefs": [],
       "tag": "TR",
       "className": "schedule-table-row arb:cursor-pointer arb:transition-colors arb:duration-200 arb:ease-in-out"
@@ -337,7 +337,7 @@
       "relation": "vs",
       "source_url": "https://www.wlgeneralsathletics.com/fall-sports/field-hockey/",
       "uid": "300b1f9b5d90c1c95f2d3b29@wl-field-hockey-calendar",
-      "details": "Tue, Nov 10 | 6:00 PM | Independence HS | - | Independence High School | Tue, Nov 10 6:00 PM, view game details"
+      "details": "Tue, Nov 10 | 6:00 PM | Independence HS | L | 1 | - | 7 | Independence High School | Tue, Nov 10 6:00 PM, view game details"
     }
   ]
 }
